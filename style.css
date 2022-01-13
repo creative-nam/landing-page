@@ -3,5 +3,20 @@
 body {
     font-family: 'Roboto', -apple-system, system-ui, "BlinkMacSystemFont","Segoe UI", "Helvetica Neue", Arial, sans-serif;
     min-height: 100vh;
-    margin: 0;   
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    background-color: #1f2937;
+    color: white;
+    padding: 1em 3em 4em;
+    min-height: 300px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 5em;
 }
