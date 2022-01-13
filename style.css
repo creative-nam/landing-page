@@ -20,3 +20,9 @@ nav {
     justify-content: space-between;
     margin-bottom: 5em;
 }
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
