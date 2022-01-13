@@ -26,3 +26,10 @@ ul {
     margin: 0;
     padding: 0;
 }
+
+.header-links {
+    font-size: 18px;
+    color: #e5e7eb;
+    display: flex;
+    gap: 2em;
+}
