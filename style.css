@@ -40,7 +40,7 @@ ul {
     gap: 2em;
 }
 
-section {
+header section {
     display: flex;
     gap: max(1%, 1em);
 }
