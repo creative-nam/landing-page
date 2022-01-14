@@ -27,6 +27,12 @@ ul {
     padding: 0;
 }
 
+.header-logo {
+    font-size: 24px;
+    color: #f9faf8;
+    font-weight: bold;
+}
+
 .header-links, .hero.secondary-text {
     font-size: 18px;
     color: #e5e7eb;
@@ -62,12 +68,4 @@ section {
     color: white;
     padding: .5em 2em;
     align-self: flex-start;
-}
-
-.img-placeholder {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: hsla(0, 0%, 90%, 0.514);
-    width: 49.5%;
 }
