@@ -27,7 +27,7 @@ ul {
     padding: 0;
 }
 
-.header-links {
+.header-links, .hero.secondary-text {
     font-size: 18px;
     color: #e5e7eb;
     display: flex;
@@ -36,5 +36,38 @@ ul {
 
 section {
     display: flex;
-    justify-content: space-between;
+    gap: max(1%, 1em);
+}
+
+.hero {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: .2em;
+    width: 49.5%;
+}
+
+.hero .main-text {
+    font-size: 48px;
+    font-weight: extra-bold;
+    color: #f9faf8;
+    margin: 0;
+}
+
+.hero button {
+    border: none;
+    background-color: #3882f6;
+    border-radius: .5em;
+    font-size: 1em;
+    color: white;
+    padding: .5em 2em;
+    align-self: flex-start;
+}
+
+.img-placeholder {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: hsla(0, 0%, 90%, 0.514);
+    width: 49.5%;
 }
