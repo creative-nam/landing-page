@@ -92,3 +92,9 @@ header section {
     font-weight: extra-bold;
     color: #1f2937;
 }
+
+.illustrations-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
