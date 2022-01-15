@@ -8,6 +8,7 @@ body {
     flex-direction: column;
 }
 
+/*styling the header*/
 header {
     background-color: #1f2937;
     color: white;
@@ -77,3 +78,5 @@ header section {
     background-color: hsla(0, 0%, 90%, 0.514);
     width: 49.5%;
 }
+
+/*styling the main section of the website*/
