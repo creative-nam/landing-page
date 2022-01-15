@@ -12,7 +12,7 @@ body {
 header {
     background-color: #1f2937;
     color: white;
-    padding: 1em 3em 4em;
+    padding: 1em 5% 4em;
     min-height: 300px;
 }
 
@@ -80,6 +80,10 @@ header section {
 }
 
 /*styling the main section of the website*/
+main {
+    padding: 0 5%;
+}
+
 #top-section {
     display: flex;
     flex-direction: column;
@@ -97,4 +101,19 @@ header section {
     display: flex;
     justify-content: center;
     align-items: center;
+    gap: 1em;
+}
+
+.illustration-and-text {
+    max-width: 120px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.fake-illustration {
+    min-height: 150px;
+    max-width: 120px;
+    border: 3px solid #3882f6;
+    border-radius: 10px;
 }
