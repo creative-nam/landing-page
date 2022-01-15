@@ -80,3 +80,9 @@ header section {
 }
 
 /*styling the main section of the website*/
+#top-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
