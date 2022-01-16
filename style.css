@@ -11,7 +11,6 @@ body {
 /*styling the header*/
 header {
     background-color: #1f2937;
-    color: white;
     padding: 1em 5% 4em;
     min-height: 300px;
 }
@@ -30,13 +29,11 @@ ul {
 
 .header-logo {
     font-size: 24px;
-    color: #f9faf8;
     font-weight: bold;
 }
 
 .header-links, .hero.secondary-text {
     font-size: 18px;
-    color: #e5e7eb;
     display: flex;
     gap: 2em;
 }
@@ -57,7 +54,6 @@ header section {
 .hero .main-text {
     font-size: 48px;
     font-weight: extra-bold;
-    color: #f9faf8;
     margin: 0;
 }
 
@@ -66,7 +62,6 @@ header section {
     background-color: #3882f6;
     border-radius: .5em;
     font-size: 1em;
-    color: white;
     padding: .5em 2em;
     align-self: flex-start;
 }
@@ -142,7 +137,6 @@ q::before, q::after {
     margin: 60px max(80px, 5%);
     border-radius: 10px;
     padding: 20px;
-    color: #f9faf8;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -153,5 +147,18 @@ q::before, q::after {
     border: 2px solid #f9faf8;
     border-radius: 10px;
     padding: 10px 30px;
+}
+
+footer {
+    background-color: #1f2937;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header, .hero button,
+#bottom-section, #bottom-section button,
+footer {
     color: #f9faf8;
 }
