@@ -110,3 +110,29 @@ header section {
     border: 3px solid #3882f6;
     border-radius: 15px;
 }
+
+#middle-section {
+    background-color: #e5e7eb;
+    padding: 5% 10%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+q {
+    max-width: 550px;
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+}
+
+/*removing the default quotes that the q element has*/
+q::before, q::after {
+    content: none;
+}
+
+#middle-section p {
+    align-self: flex-end;
+    font-size: 18px;
+}
