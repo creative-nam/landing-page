@@ -136,3 +136,14 @@ q::before, q::after {
     align-self: flex-end;
     font-size: 18px;
 }
+
+#bottom-section {
+    background-color: #3882f6;
+    margin: 60px max(80px, 5%);
+    border-radius: 10px;
+    padding: 20px;
+    color: #f9faf8;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
